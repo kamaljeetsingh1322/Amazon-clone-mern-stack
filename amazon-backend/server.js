@@ -10,8 +10,7 @@ dotenv.config();
 
 const app = express();
 const port = process.env.PORT || 5000;
-const connection_url =
-  "mongodb+srv://kamaljeet_2000:1uTHdXbKNbbvUOQx@cluster0.jiwka.mongodb.net/amazon_clone?retryWrites=true&w=majority";
+const connection_url ="<DB link>";
 
 mongoose.connect(connection_url, {
   useCreateIndex: true,
